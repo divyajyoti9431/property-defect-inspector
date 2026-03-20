@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "install-deps",
+      "runtimeExecutable": "C:\\Users\\divya\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "runtimeArgs": ["-m", "pip", "install", "requests", "fastapi", "uvicorn[standard]", "python-multipart", "google-generativeai", "reportlab", "Pillow", "python-dotenv", "aiofiles", "-q"],
+      "port": 9999
+    },
+    {
+      "name": "property-defect-app",
+      "runtimeExecutable": "C:\\Users\\divya\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001", "--app-dir", "C:\\Users\\divya\\OBJECT DETECTION"],
+      "port": 8001
+    },
+    {
+      "name": "run-test-analysis",
+      "runtimeExecutable": "C:\\Users\\divya\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "runtimeArgs": ["run_test.py"],
+      "port": 9997
+    },
+    {
+      "name": "push-to-github",
+      "runtimeExecutable": "C:\\Users\\divya\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "runtimeArgs": ["C:\\Users\\divya\\OBJECT DETECTION\\push_to_github.py"],
+      "port": 9996
+    }
+  ]
+}
