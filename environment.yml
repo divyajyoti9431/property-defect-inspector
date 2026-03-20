@@ -1,0 +1,14 @@
+name: obj-detect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - opencv-python==4.9.0.80
+    - numpy==1.26.4
+    - imutils==0.5.4
+    - matplotlib==3.8.4
+    - Pillow==10.3.0
+    - scipy==1.13.0
