@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda --version)",
+      "Bash(pip install:*)",
+      "Bash(cmd /c \"cd /d \"\"C:\\\\Users\\\\divya\\\\OBJECT DETECTION\"\" && node create_doc.js\")",
+      "Bash(node \"C:/Users/divya/OBJECT DETECTION/create_doc.js\")",
+      "Read(//usr/bin/**)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python3 -c \"import subprocess; result = subprocess.run\\([''node'', ''C:/Users/divya/OBJECT DETECTION/create_doc.js''], capture_output=True, text=True\\); print\\(''STDOUT:'', result.stdout\\); print\\(''STDERR:'', result.stderr\\); print\\(''RC:'', result.returncode\\)\")",
+      "Bash(python -c \"import subprocess; result = subprocess.run\\([''node'', r''C:\\\\Users\\\\divya\\\\OBJECT DETECTION\\\\create_doc.js''], capture_output=True, text=True, cwd=r''C:\\\\Users\\\\divya\\\\OBJECT DETECTION''\\); print\\(''STDOUT:'', result.stdout\\); print\\(''STDERR:'', result.stderr\\); print\\(''RC:'', result.returncode\\)\")",
+      "Bash(echo $SHELL)",
+      "Bash(python \"C:/Users/divya/OBJECT DETECTION/run_node.py\")",
+      "Bash(\"C:/Users/divya/AppData/Local/Programs/Python/Python311/python.exe\" \"C:/Users/divya/OBJECT DETECTION/create_doc_pure.py\")",
+      "Bash(\"C:\\\\Users\\\\divya\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" \"C:\\\\Users\\\\divya\\\\OBJECT DETECTION\\\\bootstrap_docx.py\")",
+      "mcp__Claude_Preview__preview_start",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "WebSearch",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:universe.roboflow.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.nobroker.in)",
+      "WebFetch(domain:assets.nobroker.in)"
+    ]
+  }
+}
