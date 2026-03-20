@@ -24,7 +24,8 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:www.nobroker.in)",
       "WebFetch(domain:assets.nobroker.in)",
-      "Bash(\"C:\\\\Users\\\\divya\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" push_to_github.py)"
+      "Bash(\"C:\\\\Users\\\\divya\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\" push_to_github.py)",
+      "WebFetch(domain:api.github.com)"
     ]
   }
 }
