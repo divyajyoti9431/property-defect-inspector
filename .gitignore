@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+.env
+.venv
+
+# Conda
+.conda/
+
+# Generated output images
+*_result.jpg
+*_result.png
+*_detected.jpg
+*_annotated.png
+captured.jpg
+demo_object.jpg
+test_images/
+
+# App-generated folders (user data & reports)
+uploads/
+reports/
+*.log
+
+# Secrets (never push these)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
